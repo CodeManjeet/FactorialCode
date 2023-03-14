@@ -1,0 +1,32 @@
+# Code For Finding Factorial
+
+
+def main():
+    num = int(input('Enter The Number For Finding the factorial :- '))
+
+
+    facto = 1
+    count = 1
+
+    while count <= num:
+        facto = facto * count
+        count = count + 1
+
+    print('Factorial Of ' , num , "is" , facto)
+
+    again = input('Would You Like To run Agin If Yes Type "y" If No Type "n"')
+
+    if again == 'y':
+        main()
+
+    elif again == 'n':
+
+        print('Thanks For Using')
+
+    else:
+        print ('Invalid Input Found Code Terminated')
+
+main()
+
+
+#Code Written By Manjeet (github.com/CodeManjeet)
